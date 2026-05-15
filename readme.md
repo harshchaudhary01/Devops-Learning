@@ -46,5 +46,6 @@ Whenever code is pushed to the `main` branch, Jenkins automatically triggers the
 ```bash
 .
 ├── Jenkinsfile
+├── Dockerfile
 ├── README.md
 └── project-files
