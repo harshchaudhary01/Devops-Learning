@@ -18,7 +18,12 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 echo 'Installing npm packages...'
-                sh 'npm install'
+
+                sh '''
+                npm install
+                chmod -R 755 node_modules
+                chmod +x node_modules/.bin/vite
+                '''
             }
         }
 
