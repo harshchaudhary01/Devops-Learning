@@ -49,4 +49,5 @@ Whenever code is pushed to the `main` branch, Jenkins automatically triggers the
 ├── Dockerfile
 ├── README.md
 ├── package.json
+├── package-lock.json
 └── project-files
